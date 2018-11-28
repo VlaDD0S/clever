@@ -22,17 +22,17 @@ namespace Clever_API
         private string LPUrl;
         private List<HandlerModel> _handlerModels;
 
-        public int _GameId { get; }
-        public int _OwnerId { get; }
-        public int _UserId { get; }
-        public int _VideoId { get; }
+        public int GameId { get; }
+        public int OwnerId { get; }
+        public int UserId { get; }
+        public int VideoId { get; }
 
-        public LongPollApi(Api Api, int GameId, int VideoId, int OwnerId)
+        public LongPollApi(Api Api, int _GameId, int _VideoId, int _OwnerId)
         {
-            _GameId = GameId;
-            _OwnerId = OwnerId;
-            _UserId = Api.userId;
-            _VideoId = VideoId; 
+            GameId = _GameId;
+            OwnerId = _OwnerId;
+            UserId = Api.userId;
+            VideoId = _VideoId; 
             _Api = Api;
             _client = new HttpClient();
             _handlerModels = new List<HandlerModel>();
@@ -44,7 +44,7 @@ namespace Clever_API
             if (!IsGameStarted())
                 throw new GameNotStarted();
 
-            LPUrl = _Api.GetLongPollServer(_VideoId, _OwnerId).Result;
+            LPUrl = _Api.GetLongPollServer(VideoId, OwnerId).Result;
             ParseUriDataToDict(LPUrl); 
             var LPH = new Thread(LongPollHandler);
             LPH.Start();

@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/Clever API/v15
+/Clever API/bin/Debug/netcoreapp2.1
+/Clever API/obj/Debug/netcoreapp2.1
+/Clever API/obj
+/.vs/Clever API/DesignTimeBuild

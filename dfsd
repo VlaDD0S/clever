@@ -1,0 +1,36 @@
+[33mcommit 817ddb578022316c177e33f01fa6f489f5f7ed11[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 02c2a52 60930d0
+Author: VlaDD0S <me@vladdos.ru>
+Date:   Wed Nov 28 18:17:23 2018 +0000
+
+    Merge branch 'master' of https://github.com/VlaDD0S/clever
+
+[33mcommit 02c2a52eb4ebe2099970fc350bab4903459d6c65[m
+Author: VlaDD0S <me@vladdos.ru>
+Date:   Wed Nov 28 18:11:35 2018 +0000
+
+    First commit
+
+[33mcommit b911774d1b8e65f57aaadd6d7f59cf89aaa88e7f[m
+Author: VlaDD0S <me@vladdos.ru>
+Date:   Wed Nov 28 18:09:56 2018 +0000
+
+    First commit
+
+[33mcommit 5d564ffd24a978898d48843bf1f2610794c6908a[m
+Author: DEST <DEST@win2016vhd>
+Date:   Wed Nov 28 17:56:10 2018 +0000
+
+    Add .gitignore and .gitattributes.
+
+[33mcommit 60930d0ae422a4b85492e6bcef8694d98467f77b[m
+Author: VLADD0S <me@vladdos.ru>
+Date:   Wed Nov 28 17:50:51 2018 +0000
+
+    First Commit
+
+[33mcommit b2721d347e119834e482d9e01669aa9c3b1575cf[m
+Author: VlaDD0S <45049775+VlaDD0S@users.noreply.github.com>
+Date:   Wed Nov 28 17:43:52 2018 +0000
+
+    Initial commit
